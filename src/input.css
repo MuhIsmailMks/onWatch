@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    height: auto;
+
+    padding-bottom: 0;
+    overflow-x: hidden; 
+}
+
+html{
+    scroll-behavior: smooth
+}
+ 
+
+
+.flex_col_center{
+    @apply flex flex-col items-center;
+}
+
+
+.navScroll { 
+    @apply duration-1000 bg-gradient-to-r from-[#843ee094] to-[#0027b3d8] backdrop-blur-[2px] ;
+ }
+
+.general p,
+.Clock p{
+    @apply text-left h-11;
+}
+
+.moreSpec p{
+    @apply h-auto my-3;
+}
+
+.spec_container img{
+    @apply w-10 h-auto;
+    
+}
+
+/* morespec container*/
+#more{
+    @apply tbm:h-[490px];
+}
+
+#trac{
+    @apply tbm:h-[690px];
+}
+
+.moreSpec_container{
+    @apply flex items-center justify-between w-full  h-auto;
+}
+
+.imgVerification{
+    @apply w-[40%] flex justify-center ;
+}
+
+/* images container */
+.images_container{ 
+    columns: 5 50px;
+}
+.images_container img{
+    @apply object-cover h-auto   break-inside-avoid   mt-3 mx-4;
+}
+
+/* footer section */
+.footerTextGradient{
+    background: -webkit-linear-gradient(140deg,#0032E2CC  , #853EE0CC 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    @apply text-[1.2rem] ;
+}
+
+.informationList{
+    @apply  text-[.65rem];
+}
+
+.informationList a{
+    @apply my-2 cursor-pointer tmc:text-[.9rem] txc:text-[1.2rem] dtm:text-[.9rem] dtm:tracking-[1px];
+}
+
+.media_social_container img{
+    @apply w-5 h-auto cursor-pointer txc:w-7 dtm:w-auto;
+}
+
+/* responsive */
+@media screen and (max-width:1100px) { 
+/* navbar */
+    #ul{
+        transform: translateX(100%);
+        @apply duration-500 bg-gradient-to-r from-[#843ee094] to-[#0027b3d8] ;
+    }
+    /* images container */
+    .images_container{ 
+        columns: 3 50px;
+    }
+ 
+}
+@media screen and (max-width:500px){
+    /* images container */
+    .images_container{ 
+        columns: 1 50px;
+        @apply flex items-center flex-col;
+    }
+
+    .images_container img{
+        @apply w-[70%];
+    }
+    /* specification */
+
+    .spec_container img{
+        @apply w-5 h-auto;
+    }
+}
+@media screen and (min-width:500px){
+
+    /* specification */
+    .spec_container img{
+        @apply w-8 h-auto;
+    }
+
+    .spec_container h3{
+        @apply text-[17px];
+    }
+
+    .spec_col2 h3{
+        @apply h-10;
+    }
+}
+
+
+
+#menu.active ~ #ul{
+    transform: translateX(0%);
+}
