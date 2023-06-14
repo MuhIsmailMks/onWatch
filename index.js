@@ -36,9 +36,9 @@ window.addEventListener('scroll',()=> {
 // bg header img
 bgImgHeader.setAttribute('src','errr');
 function headerImgSize(){
-        if(window.screen.width < 500){ 
+        if(window.screen.width < 550){ 
         bgImgHeader.setAttribute('src','img/mobileBgHeader.png');
-    } else if(window.screen.width > 500 && window.screen.width < 1100){
+    } else if(window.screen.width > 550 && window.screen.width < 1100){
         bgImgHeader.setAttribute('src','img/tabHeaderImg.png');
     } else if(window.screen.width > 1100 && window.screen.width < 1700){
         bgImgHeader.setAttribute('src','img/deksHeaderImg.png');
@@ -47,7 +47,7 @@ function headerImgSize(){
         bgImgHeader.setAttribute('src','img/deksMaxHeaderImg.png');
     }
 }
-headerImgSize()
+headerImgSize();
 window.addEventListener('resize' ,() => {
     headerImgSize()
 })
