@@ -55,6 +55,10 @@ html{
     @apply w-[40%] flex justify-center ;
 }
 
+.media_social_container{ 
+    @apply  gap-11;
+}
+
 /* images container */
 .images_container{ 
     columns: 5 50px;

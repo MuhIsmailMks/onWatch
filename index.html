@@ -9,7 +9,7 @@
     <!-- googlefont -->
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inter&family=Montserrat&family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
 
-    <link href="dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css" >
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="src/input.css">
     <title>onwatch</title>
@@ -18,9 +18,10 @@
 
     <nav class="top-0 left-0 fixed h-20 w-full flex items-center px-7 py-4 justify-between z-50  
     ">
-        <div id="logo" class=" flex h-full w-auto items-center dtm:ml-12">
+        <div id="logo" class="relative flex h-full w-auto items-center dtm:ml-12">
             <img src="img/brandWebIcon.png" class="h-full" alt="BrandIcon">
             <h4 class="text-white h-full flex items-end text-3xl ">nWatch</h4>
+            <a href="https://www.figma.com/file/2ecgHg8rzbniayrZvPbU3V/onWatch?type=design&node-id=0-1&t=7BRHdDEoov1FnrLv-0" class="absolute w-full h-full "></a>
         </div>
 
         <div id="menu" class="  h-12 w-12 relative flex justify-center items-center dtm:hidden">
@@ -417,7 +418,7 @@
     </section>
 
     <!-- footer section -->
-    <footer class="h-auto relative bg-black w-full mt-10 flex_col_center py-5 items-center px-10  dtm:pt-[8rem] dtm:pb-[40px]">
+    <footer class="h-auto relative bg-black w-full mt-10 flex_col_center py-5 items-center px-10  dtm:pt-[8rem] dtm:pb-[40px] overflow-hidden">
 
         <!-- logo web footer -->
         <div class="logoFooter dtm:absolute dtm:left-[4rem] dtm:top-[2rem] ">
@@ -471,21 +472,21 @@
         </div>
 
       <!-- FooterbottomContent -->
-        <div class="FooterbottomContent relative h-auto w-full dtm:flex_col_center">
+        <div class="FooterbottomContent relative h-auto w-full dtm:flex_col_center ">
             
                     <!-- line bottom -->
-                <div class="my-5 w-[100%] h-[1px] bg-white mx-auto dtm:w-[90%]"></div>
+            <div class="my-5 w-[100%] h-[1px] bg-white mx-auto dtm:w-[90%]"></div>
 
-                <!-- social media -->
-            <div class="media_social_container flex items-center w-full px-7 justify-between max-w-[300px] txc:max-w-[600px] mx-auto dtm:mt-[20px]">
-                <img src="img/facebookIcon1.png" alt="" class="dtm:w-12">
-                <img src="img/linkedInIcon2.png" alt="" class="">
-                <img src="img/instagramIcon3.png" alt="" class="">
-                <img src="img/twitterIcon(1).png" alt="" class="">
-            </div>
-
+            <!-- social media -->
+             <div class="media_social_container relative   h-auto flex items-center  justify-center   max-w-[100%] txc:max-w-[600px] dtm:mt-[20px]">
+                    <img src="img/facebookIcon1.png" alt="" class="dtm:w-12 ">
+                    <img src="img/linkedInIcon2.png" alt="" class="">
+                    <img src="img/instagramIcon3.png" alt="" class="">
+                    <img src="img/twitterIcon(1).png" alt="" class=""> 
+             </div>
+    
             <!-- by -->
-            <div class="by font-plusJakartaSans    text-[#c5c5c5f6] text-center mt-5 mdc:text-[.6rem] tbsx:text-[.8rem] dtm:absolute dtm:text-[.7rem]">
+            <div class="by font-plusJakartaSans   relative   text-white text-center mt-8 mdc:text-[.6rem] tbsx:text-[.8rem]  dtm:text-[.7rem]">
                 @2023 Ismail   |   All Rights Reverved
             </div>
         </div>
