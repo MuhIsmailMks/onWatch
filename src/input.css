@@ -10,7 +10,7 @@ body{
 }
 
 html{
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
 }
  
 
@@ -86,6 +86,7 @@ html{
 .media_social_container img{
     @apply w-5 h-auto cursor-pointer txc:w-7 dtm:w-auto;
 }
+
 
 /* responsive */
 @media screen and (max-width:1100px) { 

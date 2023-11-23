@@ -7,14 +7,12 @@
 
     <link rel="icon" type="image/png"  href="img/brandWeb.png"> 
     <!-- googlefont -->
-    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inter&family=Montserrat&family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inter&family=Montserrat&family=Plus+Jakarta+Sans&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="dist/output.css" >
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="src/input.css">
     <title>onwatch</title>
 </head>
-<body>
+<body  >
 
     <nav class="top-0 left-0 fixed h-20 w-full flex items-center px-7 py-4 justify-between z-50  
     ">
@@ -37,19 +35,20 @@
         </ul>
     </nav>
     
-    <header id="home" class="h-auto pt-12 w-full relative flex items-center  justify-between   txl:flex-col-reverse dtm:px-12 dtm:pt-16" >
+
+    <div id="home" class="h-auto pt-12 w-full relative flex items-center  justify-between   txl:flex-col-reverse dtm:px-12 dtm:pt-16" >
         <!-- background header -->
-       <div  class="bgHeader absolute left-0 top-0 w-full h-full">
-          <img src="img/deksHeaderImg.png" class="bgImgHeader w-full" alt="Garmin Forerunner F35 " >
+       <div  class="bgHero absolute left-0 top-0 w-full h-full ">
+          <img src="img/deksHeaderImg.png" class="bgImgHero w-full" alt="Garmin Forerunner F35 " >
        </div> 
-       <!-- header content -->
+       <!-- main content -->
 
        <div class="about_header z-20  text-white txl:w-[100%] txl:text-center dtm:ml-16 dxm:w-[50%] dxm:flex dxm:flex-col dxm:items-center   ">
            <div class="header_title mb-10">
                <div class="product_brand font-interFont tracking-[.40rem]  ssm:text-2xl mdc:text-5xl tmc:text-6xl txc:text-9xl dtm:text-7xl">GARMIN</div>
                <p class=" font-inriaFont tracking-[.1rem] ssm:tracking-[.04rem] ssm:text-sm mdc:text-sm txc:text-2xl dtm:ml-2">Forerunner 35 GPS Running</p>
            </div>
-           <div class="header_content  flex flex-col txl:items-center dtm:items-start">
+           <div class="hero_content  flex flex-col txl:items-center dtm:items-start">
               <p class="w-full px-3 mdc:text-sm mdc:px-11 tmc:w-[80%] tmc:text-[20px] txc:text-[22px] txc:w-[80%] dtm:w-[300px] dxm:text-[20px]">one of the most effective ways of discovering your accurate fitness level as it increases and decreases.</p>
               <button class="mt-8 bg-white text-[#853EE0]  rounded-xl font-bold mdc:py-1 mdc:px-7 tmc:py-2 tmc:px-9 txc:py-3 txc:px-14 txc:text-2xl dtm:px-9 dtm:py-2 dtm:ml-2" >review</button>
            </div>
@@ -59,13 +58,14 @@
           <img src="img/webimagesheader.png" alt="Garmin Forerunner F35 " class="txl:w-[80%]" > 
        </div>
 
-    </header>
+    </div>
 
     <!-- about section -->
     <section id="about" class="relative w-full h-auto  mt-36 mdc:mt-48 txc:mt-56 dtm:mt-[300px]">
 
         <!-- important spec -->
-        <div class="important_specifications relative flex items-center gap-12 mdc:flex-col mdc:mb-52  mdc:text-[14px] tmc:flex-col tmc:my-10 tmc:h-[600px]  txc:justify-center  txc:h-[400px]   dtm:justify-center dtm:mb-10"> 
+        <div class="important_specifications relative flex items-center gap-12 mdc:flex-col mdc:mb-52  mdc:text-[14px] tmc:flex-col tmc:my-10 tmc:h-[600px]  txc:justify-center  txc:h-[400px]   dtm:justify-center dtm:mb-10 pt-[20vw]   "> 
+
             <div class="battery flex flex-col items-center txc:w-[25%] dtm:w-[20%]   dtm:h-[200px]">
                 <img src="img/batteryIcon.png" alt="" class="dtm:mb-2 txc:mb-4" >
                 <h3 class="my-2 tmc:text-[25px] txc:text-[26px] dtm:mb-10">Battery Life</h3>
@@ -81,6 +81,7 @@
                 <h3 class="my-2 tmc:text-[25px] txc:text-[26px] dtm:mb-10">Display</h3>
                 <p class="text-center mdc:w-[200px] mdc:text-[13px] txc:text-[15px]  dtm:w-[150px]">1.4 inches, Transflective (MIP) LCD</p>
             </div>
+
         </div>
 
         <!-- about section -->
@@ -119,7 +120,7 @@
     </section>
 
     <!-- features section -->
-    <section id="features" class="w-full h-auto  mt-4 pt-4 flex_col_center">
+    <section id="features" class="w-full h-auto  mt-4 pt-4 flex_col_center ">
 
         <div class="features_title text-center mb-4 ">
             <h2 class="mb-2 font-light mdc:text-5xl tmc:text-5xl dtm:text-6xl ">Features</h2>

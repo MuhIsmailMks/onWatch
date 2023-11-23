@@ -2,7 +2,7 @@ const menu = document.getElementById('menu');
 const nav = document.querySelector('nav');
 const ul = document.getElementById('ul');
 const lis = document.querySelectorAll('li');
-const bgImgHeader = document.querySelector('header .bgImgHeader')
+const bgImgHero = document.querySelector('#home .bgImgHero')
 
 
 lis.forEach(li => {
@@ -34,17 +34,17 @@ window.addEventListener('scroll',()=> {
 })
 
 // bg header img
-bgImgHeader.setAttribute('src','errr');
+bgImgHero.setAttribute('src','errr');
 function headerImgSize(){
         if(window.screen.width < 550){ 
-        bgImgHeader.setAttribute('src','img/mobileBgHeader.png');
+        bgImgHero.setAttribute('src','img/mobileBgHeader.png');
     } else if(window.screen.width > 550 && window.screen.width < 1100){
-        bgImgHeader.setAttribute('src','img/tabHeaderImg.png');
+        bgImgHero.setAttribute('src','img/tabHeaderImg.png');
     } else if(window.screen.width > 1100 && window.screen.width < 1700){
-        bgImgHeader.setAttribute('src','img/deksHeaderImg.png');
-        // bgImgHeader.setAttribute('src','img/deksMaxHeaderImg.png');
+        bgImgHero.setAttribute('src','img/deksHeaderImg.png');
+        // bgImgHero.setAttribute('src','img/deksMaxHeaderImg.png');
     } else {
-        bgImgHeader.setAttribute('src','img/deksMaxHeaderImg.png');
+        bgImgHero.setAttribute('src','img/deksMaxHeaderImg.png');
     }
 }
 headerImgSize();

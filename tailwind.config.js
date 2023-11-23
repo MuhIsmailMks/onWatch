@@ -22,6 +22,7 @@ module.exports = {
       screens: {
         'ssm': {'max': '300px'},    // super small screen
         'mdc': {'max': '500px'},    // mobile screen
+        'mss': {'min': '400px' , 'max': '600px'},    // medium smartphone size
         'tmc': {'min': '501px' , 'max': '850px'},    // tablet m screen
         'txc': {'min': '850px' , 'max': '1100px'},    // tablet xl screen
         'txl': {'max': '1100px'},    // config for tablet & mobile 
