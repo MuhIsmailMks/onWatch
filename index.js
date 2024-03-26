@@ -4,7 +4,6 @@ const ul = document.getElementById('ul');
 const lis = document.querySelectorAll('li');
 const bgImgHero = document.querySelector('#home .bgImgHero')
 
-
 lis.forEach(li => {
     li.addEventListener('click',() => {
         lis.forEach(li => {
@@ -15,6 +14,7 @@ lis.forEach(li => {
         li.classList.add('text-white') 
     })
 })
+
 menu.addEventListener('click', () => {
     menu.classList.toggle('active')
 })
@@ -42,7 +42,6 @@ function headerImgSize(){
         bgImgHero.setAttribute('src','img/tabHeaderImg.png');
     } else if(window.screen.width > 1100 && window.screen.width < 1700){
         bgImgHero.setAttribute('src','img/deksHeaderImg.png');
-        // bgImgHero.setAttribute('src','img/deksMaxHeaderImg.png');
     } else {
         bgImgHero.setAttribute('src','img/deksMaxHeaderImg.png');
     }
@@ -50,5 +49,4 @@ function headerImgSize(){
 headerImgSize();
 window.addEventListener('resize' ,() => {
     headerImgSize()
-})
-console.log(window.screen.width);
+})  
