@@ -12,16 +12,17 @@
     <meta name="author" content="Muhammad Ismail MKS">
     <link rel="canonical" href="https://muhismailmks-newportfolio.vercel.app/">
 
+    <!-- tailwind css -->
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- googlefont -->
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inter&family=Montserrat&family=Plus+Jakarta+Sans&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="dist/output.css" >
     <link rel="stylesheet" href="src/input.css">
     <title>onwatch</title>
 </head>
-<body  >
-
-    <nav class="top-0 left-0 fixed h-20 w-full flex items-center px-7 py-4 justify-between z-50  
-    ">
+<body class="flex justify-center">
+ 
+    <nav class="top-0 fixed h-20 w-full flex items-center px-7 py-4 justify-between z-50 max-w-[2000px]">
         <div id="logo" class="relative flex h-full w-auto items-center dtm:ml-12">
             <img src="img/brandWebIcon.png" class="h-full" alt="BrandIcon">
             <h4 class="text-white h-full flex items-end text-3xl ">nWatch</h4>
@@ -40,467 +41,467 @@
             <li class="txl:w-full dtm:px-5 cursor-pointer mdc:text-[16px] txc:text-3xl tmc:text-2xl text-center"><a href="#images">Images</a></li>
         </ul>
     </nav>
-    
 
-    <div id="home" class="h-auto pt-12 w-full relative flex items-center  justify-between   txl:flex-col-reverse dtm:px-12 dtm:pt-16" >
-        <!-- background header -->
-       <div  class="bgHero absolute left-0 top-0 w-full h-full ">
-          <img src="img/deksHeaderImg.png" class="bgImgHero w-full" alt="Garmin Forerunner F35 " >
-       </div> 
-       <!-- main content -->
+    <main class="container-site w-full max-w-[2000px] relative">
 
-       <div class="about_header z-20  text-white txl:w-[100%] txl:text-center dtm:ml-16 dxm:w-[50%] dxm:flex dxm:flex-col dxm:items-center   ">
-           <div class="header_title mb-10">
-               <h1 class="product_brand font-interFont tracking-[.40rem]  ssm:text-2xl mdc:text-5xl tmc:text-6xl txc:text-9xl dtm:text-7xl">GARMIN</h1>
-               <p class=" font-inriaFont tracking-[.1rem] ssm:tracking-[.04rem] ssm:text-sm mdc:text-sm txc:text-2xl dtm:ml-2">Forerunner 35 GPS Running</p>
-           </div>
-           <div class="hero_content  flex flex-col txl:items-center dtm:items-start">
-              <p class="w-full px-3 mdc:text-sm mdc:px-11 tmc:w-[80%] tmc:text-[20px] txc:text-[22px] txc:w-[80%] dtm:w-[300px] dxm:text-[20px]">one of the most effective ways of discovering your accurate fitness level as it increases and decreases.</p>
-              <button class="mt-8 bg-white text-[#853EE0]  rounded-xl font-bold mdc:py-1 mdc:px-7 tmc:py-2 tmc:px-9 txc:py-3 txc:px-14 txc:text-2xl dtm:px-9 dtm:py-2 dtm:ml-2" >review</button>
-           </div>
-       </div> 
-
-       <div class="header_images  z-20 txl:w-full flex justify-center">
-          <img src="img/webimagesheader.png" alt="Garmin Forerunner F35 " class="txl:w-[80%]" > 
-       </div>
-
-    </div>
-
-    <!-- about section -->
-    <section id="about" class="relative w-full h-auto  mt-36 mdc:mt-48 txc:mt-56 dtm:mt-[300px]">
-
-        <!-- important spec -->
-        <div class="important_specifications relative flex items-center gap-12 mdc:flex-col mdc:mb-52  mdc:text-[14px] tmc:flex-col tmc:my-10 tmc:h-[600px]  txc:justify-center  txc:h-[400px]   dtm:justify-center dtm:mb-10 pt-[20vw]   "> 
-
-            <div class="battery flex flex-col items-center txc:w-[25%] dtm:w-[20%]   dtm:h-[200px]">
-                <img src="img/batteryIcon.png" alt="" class="dtm:mb-2 txc:mb-4" >
-                <h3 class="my-2 tmc:text-[25px] txc:text-[26px] dtm:mb-10">Battery Life</h3>
-                <p class="text-center mdc:w-[200px] mdc:text-[13px] txc:text-[15px]  dtm:w-[200px]">Battery life. Up to 9 days for watch mode, includes smart notifications,</p>
+            <section id="home" class="h-auto pt-12 w-full relative flex items-center  justify-between   txl:flex-col-reverse dtm:px-12 dtm:pt-16" >
+          
+                <!-- background header -->
+            <div class="bgHero absolute left-0 top-0 w-full h-full ">
+                <img src="img/deksHeaderImg.png" class="bgImgHero w-full" alt="Garmin Forerunner F35 " >
             </div>
-            <div class="compatibility flex flex-col items-center txc:w-[25%] dtm:w-[20%] dtm:h-[200px]">
-                <img src="img/ios&android.png" alt="" class="dtm:mb-2 txc:mb-4" >
-                <h3 class="my-2 tmc:text-[25px] txc:text-[26px] dtm:mb-10">Compatibility</h3>
-                <p class="text-center mdc:w-[200px] mdc:text-[13px] txc:text-[15px]">Android and iOS</p>
-            </div>
-            <div class="Display flex flex-col items-center txc:w-[25%] dtm:w-[20%] dtm:h-[200px]">
-                <img src="img/displayIcon.png" alt="" class="dtm:h-[70px] dtm:mb-2 txc:mb-4" >
-                <h3 class="my-2 tmc:text-[25px] txc:text-[26px] dtm:mb-10">Display</h3>
-                <p class="text-center mdc:w-[200px] mdc:text-[13px] txc:text-[15px]  dtm:w-[150px]">1.4 inches, Transflective (MIP) LCD</p>
+             
+            <!-- main content -->
+
+            <div class="about_header z-20 text-white txl:w-[100%] txl:text-center dtm:ml-16 dxm:w-[50%] dxm:flex dxm:flex-col dxm:items-center   ">
+                <div class="header_title mb-10">
+                    <h1 class="product_brand font-interFont tracking-[.40rem]  ssm:text-2xl mdc:text-5xl tmc:text-6xl txc:text-9xl dtm:text-7xl">GARMIN</h1>
+                    <p class=" font-inriaFont tracking-[.1rem] ssm:tracking-[.04rem] ssm:text-sm mdc:text-sm txc:text-2xl dtm:ml-2">Forerunner 35 GPS Running</p>
+                </div>
+                <div class="hero_content  flex flex-col txl:items-center dtm:items-start">
+                    <p class="w-full px-3 mdc:text-sm mdc:px-11 tmc:w-[80%] tmc:text-[20px] txc:text-[22px] txc:w-[80%] dtm:w-[300px] dxm:text-[20px]">one of the most effective ways of discovering your accurate fitness level as it increases and decreases.</p>
+                    <button class="mt-8 bg-white text-[#853EE0]  rounded-xl font-bold mdc:py-1 mdc:px-7 tmc:py-2 tmc:px-9 txc:py-3 txc:px-14 txc:text-2xl dtm:px-9 dtm:py-2 dtm:ml-2" >review</button>
+                </div>
+            </div> 
+
+            <div class="header_images z-20 txl:w-full flex justify-center">
+                <img src="img/webimagesheader.png" alt="Garmin Forerunner F35 " class="txl:w-[80%]" > 
             </div>
 
-        </div>
+            </section>
 
-        <!-- about section -->
-        <div class="about_section h-auto py-6 bg-[#D7D7D7] w-full flex mdc:mt-10 mdc:flex-col tmc:flex-col items-center dtm:py-52 dtm:px-20 dtm:justify-center">
+            <!-- about section -->
+            <section id="about" class="relative w-full h-auto mt-36 mdc:mt-48   ">
 
-            <div class="images_about mdc:w-full mdc:h-56 flex items-center justify-center txc:w-[700px] dtm:w-[500px]  ">
-                <img src="img/aboutImg.png" alt="">
-            </div>
+                <!-- important spec -->
+                <div class="important_specifications relative flex items-center gap-12 mdc:flex-col   mdc:text-[14px] tmc:flex-col txc:justify-center dtm:justify-center min-[400px]:pt-[3vw] lg:pt-0 max-lg:pb-[3vw] xl:py-[100px] 2xl:py-[200px] "> 
 
-            <div class="article_about mdc:mt-16 px-3  ">
-                <article class="flex flex-col  ">
-                    <p class="txl:text-center text-[#0038FF]  tracking-[5px] tmc:text-[17px] ">About Our Product</p>
-                    <h3 class="txl:font-[700] txl:text-center mb-8 mdc:text-[23px] tmc:text-[29px] txc:text-[32px] dtm:text-5xl dtm:font-[700]">smart watch for easy life</h3>
-                    <p class="mdc:px-[10px] tmc:px-[1.9rem] tmc:text-[19px] tmc:leading-[1.3] txc:text-[18px] dtm:w-[500px]">Garmin Forerunner 35 Specification and Features – The Forerunner 35 is a lightweight fitness smartwatch with a decent design, has a moderate long battery life, and a great choice for keeping a tab on your active life.</p>
-                    <div class="about_path_spec w-full mt-7 flex flex-col mdc:px-3 mdc:gap-4 tmc:w-[500px] tmc:mx-auto tmc:gap-5 txl:gap-4 dtm:gap-5" >
-                        <div class="about_path flex items-center gap-4 mdc:gap-3 mdc:text-[13px] tmc:gap-4 txl:gap-4">
-                            <img src="img/nod.png" alt="">
-                            <p>Monitor heart rate¹ on your wrist</p>
-                        </div>
-                        <div class="about_path flex items-center gap-4 mdc:gap-3 mdc:text-[13px] tmc:gap-4 txl:gap-4">
-                            <img src="img/nod.png" alt="">
-                            <p>Built-in GPS tracks how far, fast and where you run</p>
-                        </div>
-                        <div class="about_path flex items-center gap-4 mdc:gap-3 mdc:text-[13px] tmc:gap-4 txl:gap-4">
-                            <img src="img/nod.png" alt="">
-                            <p>smart notifications, automatic uploads to Garmin Connect™</p>
-                        </div>
+                    <div class="battery flex flex-col items-center txc:w-[25%] dtm:w-[20%]   dtm:h-[200px]">
+                        <img src="img/batteryIcon.png" alt="" class="dtm:mb-2 txc:mb-4" >
+                        <h3 class="my-2 tmc:text-[25px] txc:text-[26px] dtm:mb-10">Battery Life</h3>
+                        <p class="text-center mdc:w-[200px] mdc:text-[13px] txc:text-[15px]  dtm:w-[200px]">Battery life. Up to 9 days for watch mode, includes smart notifications,</p>
+                    </div>
+                    <div class="compatibility flex flex-col items-center txc:w-[25%] dtm:w-[20%] dtm:h-[200px]">
+                        <img src="img/ios&android.png" alt="" class="dtm:mb-2 txc:mb-4" >
+                        <h3 class="my-2 tmc:text-[25px] txc:text-[26px] dtm:mb-10">Compatibility</h3>
+                        <p class="text-center mdc:w-[200px] mdc:text-[13px] txc:text-[15px]">Android and iOS</p>
+                    </div>
+                    <div class="Display flex flex-col items-center txc:w-[25%] dtm:w-[20%] dtm:h-[200px]">
+                        <img src="img/displayIcon.png" alt="" class="dtm:h-[70px] dtm:mb-2 txc:mb-4" >
+                        <h3 class="my-2 tmc:text-[25px] txc:text-[26px] dtm:mb-10">Display</h3>
+                        <p class="text-center mdc:w-[200px] mdc:text-[13px] txc:text-[15px]  dtm:w-[150px]">1.4 inches, Transflective (MIP) LCD</p>
                     </div>
 
-                    <button class="rounded-3xl bg-white text-black txl:m-auto mdc:w-[150px] mdc:text-[13px] mdc:py-2 txl:mt-8 tmc:px-10 tmc:py-2 txl:py-3 txl:px-10 dtm:w-[150px] dtm:mt-[2rem] dtm:py-2 dtm:font-bold dtm:text-[14px]">Read More</button>
-                </article>
-            </div>
+                </div>
 
-        </div>
+                <!-- about section -->
+                <div class="about_section h-auto   bg-[#D7D7D7] w-full flex mdc:mt-10 mdc:flex-col tmc:flex-col items-center max-[1300px]:py-[30px] xl:py-20 dtm:px-20 dtm:justify-center ">
+
+                    <div class="images_about mdc:w-full mdc:h-56 flex items-center justify-center txc:w-[700px] dtm:w-[500px]  ">
+                        <img src="img/aboutImg.png" alt="aboutImg">
+                    </div>
+
+                    <div class="article_about mdc:mt-16 px-3  ">
+                        <article class="flex flex-col  ">
+                            <p class="txl:text-center text-[#0038FF]  tracking-[5px] tmc:text-[17px] ">About Our Product</p>
+                            <h3 class="txl:font-[700] txl:text-center mb-8 mdc:text-[23px] tmc:text-[29px] txc:text-[32px] dtm:text-5xl dtm:font-[700]">smart watch for easy life</h3>
+                            <p class="mdc:px-[10px] tmc:px-[1.9rem] tmc:text-[19px] tmc:leading-[1.3] txc:text-[18px] dtm:w-[500px]">Garmin Forerunner 35 Specification and Features – The Forerunner 35 is a lightweight fitness smartwatch with a decent design, has a moderate long battery life, and a great choice for keeping a tab on your active life.</p>
+                            <div class="about_path_spec w-full mt-7 flex flex-col mdc:px-3 mdc:gap-4 tmc:w-[500px] tmc:mx-auto tmc:gap-5 txl:gap-4 dtm:gap-5" >
+                                <div class="about_path flex items-center gap-4 mdc:gap-3 mdc:text-[13px] tmc:gap-4 txl:gap-4">
+                                    <img src="img/nod.png" alt="">
+                                    <p>Monitor heart rate¹ on your wrist</p>
+                                </div>
+                                <div class="about_path flex items-center gap-4 mdc:gap-3 mdc:text-[13px] tmc:gap-4 txl:gap-4">
+                                    <img src="img/nod.png" alt="">
+                                    <p>Built-in GPS tracks how far, fast and where you run</p>
+                                </div>
+                                <div class="about_path flex items-center gap-4 mdc:gap-3 mdc:text-[13px] tmc:gap-4 txl:gap-4">
+                                    <img src="img/nod.png" alt="">
+                                    <p>smart notifications, automatic uploads to Garmin Connect™</p>
+                                </div>
+                            </div>
+
+                            <button class="rounded-3xl bg-white text-black txl:m-auto mdc:w-[150px] mdc:text-[13px] mdc:py-2 txl:mt-8 tmc:px-10 tmc:py-2 txl:py-3 txl:px-10 dtm:w-[150px] dtm:mt-[2rem] dtm:py-2 dtm:font-bold dtm:text-[14px]">Read More</button>
+                        </article>
+                    </div>
+
+                </div>
+                
+            </section>
+
+            <!-- features section -->
+            <section id="features" class="w-full h-auto  mt-4 pt-4 flex_col_center ">
+
+                <div class="features_title text-center mb-4 ">
+                    <h2 class="mb-2 font-light mdc:text-5xl tmc:text-5xl dtm:text-6xl ">Features</h2>
+                    <p>Forerunner  35</p>
+                </div>
         
-    </section>
-
-    <!-- features section -->
-    <section id="features" class="w-full h-auto  mt-4 pt-4 flex_col_center ">
-
-        <div class="features_title text-center mb-4 ">
-            <h2 class="mb-2 font-light mdc:text-5xl tmc:text-5xl dtm:text-6xl ">Features</h2>
-            <p>Forerunner  35</p>
-        </div>
- 
-        <div class="features_about   text-center mdc:w-[80%] tmc:w-[70%] dtm:w-[620px] dtm:mb-20 dtm:mt-4">
-            <p class="mdc:text-[15px] tmc:text-[16px] "> feature in the app is the badge system. It gamifies exercise and you can compete with friends or family also using the Garmin app. You earn badges by completing challenges and level up. It plays well into my competitive nature and encourages improvement.</p>
-        </div>
-
-        <div class="features_container mdc:flex_col_center flex_col_center flex-wrap mt-10 w-screen px-3 gap-7 dtm:px-10 dtm:flex-row dtm:justify-center ">
-
-            <div class="feature px-5 py-2 mdc:flex_col_center mdc:w-[80%] h-auto shadow-featureShadow tmc:w-[80%] tmc:text-center tmc:pb-5 txl:w-[90%] txc:flex txc:mx-auto txc:my-5 txc:h-[120px] txc:items-center dtm:w-[500px] dtm:h-[120px] dtm:flex" >   
-                <img src="img/findPhone.png" alt="find phone" class="mdc:w-[50px] m-auto my-4 tmc:h-[50px] txc:h-[50px] dtm:h-[70%]">
-                 <div class="about-feature mdc:text-center txc:w-[80%] dtm:w-[80%] dtm:ml-5">
-                    <h3 class="mb-4 font-[500]">Find MY Phone</h3>
-                    <p class="mdc:text-[13px] dtm:leading-[1.1] dtm:text-[15px]">This feature is used more than I’d like to admit when I can’t remember where I left my phone.</p>
-                 </div>
-            </div>
-
-            <div class="feature px-5 py-2 mdc:flex_col_center mdc:w-[80%] h-auto shadow-featureShadow tmc:w-[80%] tmc:text-center tmc:pb-5 txl:w-[90%] txc:flex txc:mx-auto txc:my-5 txc:h-[120px] txc:items-center dtm:w-[500px] dtm:h-[120px] dtm:flex" >
-                <img src="img/heartIcon.png" alt="find phone" class="mdc:w-[50px] m-auto my-4 tmc:h-[50px] txc:h-[50px] dtm:h-[70%]">
-                 <div class="about-feature mdc:text-center txc:w-[80%] dtm:w-[80%] dtm:ml-5">
-                    <h3 class="mb-4 font-[500]">Heart Rate Monitor</h3>
-                    <p class="mdc:text-[13px] dtm:leading-[1.1] dtm:text-[15px]">Measuring current heart rate and resting heart rate on the watch interface as well as syncing heart rates to the Garmin app</p>
-                 </div>
-            </div>
-
-            <div class="feature px-5 py-2 mdc:flex_col_center mdc:w-[80%] h-auto shadow-featureShadow tmc:w-[80%] tmc:text-center tmc:pb-5 txl:w-[90%] txc:flex txc:mx-auto txc:my-5 txc:h-[120px] txc:items-center dtm:w-[500px] dtm:h-[120px] dtm:flex" >
-                <img src="img/calorie.png" alt="find phone" class="mdc:w-[50px] m-auto my-4 tmc:h-[50px] txc:h-[50px] dtm:h-[70%]">
-                 <div class="about-feature mdc:text-center txc:w-[80%] dtm:w-[80%] dtm:ml-5">
-                    <h3 class="mb-4 font-[500]">Calorie Counter</h3>
-                    <p class="mdc:text-[13px] dtm:leading-[1.1] dtm:text-[15px]">Split between resting calories burned and calories burned through activity.</p>
-                 </div>
-            </div>
-
-            <div class="feature px-5 py-2 mdc:flex_col_center mdc:w-[80%] h-auto shadow-featureShadow tmc:w-[80%] tmc:text-center tmc:pb-5 txl:w-[90%] txc:flex txc:mx-auto txc:my-5 txc:h-[120px] txc:items-center dtm:w-[500px] dtm:h-[120px] dtm:flex" >
-                <img src="img/gpsIcon.png" alt="find phone" class="mdc:w-[50px] m-auto my-4 tmc:h-[50px] txc:h-[50px] dtm:h-[70%]">
-                 <div class="about-feature mdc:text-center txc:w-[80%] dtm:w-[77%] dtm:ml-5">
-                    <h3 class="mb-4 font-[500]">GPS</h3>
-                    <p class="mdc:text-[13px] dtm:leading-[1.1] dtm:text-[15px]">I compared the GPS accuracy against my phone and a friend’s Garmin Fenix 6 (A top of the range Garmin watch)</p>
-                 </div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- specification section -->
-    <section id="specification" class="h-auto px-5 mt-10  mdc:text-[12px]">
-        <div class="specification_title font-montserrat text-center mdc:text-3xl tmc:text-[1.5rem]  txl:text-[2rem] dtm:text-[2.2rem]">Specification</div>
-
-        <div class="column_specification w-full h-auto mdc:px-3 tmc:px-5 txc:px-10  dtm:px-20 ">
-
-            <!-- spec container 1 -->
-            <div class="spec_col1 flex flex-wrap mb-10 ">
-
-                <!-- general -->
-                <div class="spec_container tbs:w-screen mt-5 tbsx:w-[50%] tbsx:h-[400px]">
-                    <h3 class="text-center text-2xl">General</h3> 
-
-                        <div class="general px-3 flex tbs:w-full tbs:h-[380px] border border-1 h-full border-black mt-3  "> 
-                            <div class=" general_name w-[50%]">
-                                <p class="mt-4">Battery</p>
-                                <p class="">lens material</p>
-                                <p class="">Memory/history</p>
-                                <p class="">display size</p>
-                                <p class="">display resolution</p>
-                                <p class=" ">water rating</p>
-                                <p class="">weight</p>
-                                <p class="">strap material</p>
-                            </div>
-                            <div class=" general_spec w-[50%] border-l-[1px] border-black pl-2"> 
-                                <p class="mt-4">rechargeable lithium-ion</p>
-                                <p>chemically strengthened glass</p>
-                                <p>7 activities</p>
-                                <p>0.93" x 0.93" (23.5 x 23.4 mm)</p>
-                                <p>128 x 128 pixels</p>
-                                <p>7 activities   </p>
-                                <p>5 ATM</p>
-                                <p>silicone</p>
-                            </div>
-                        </div>
+                <div class="features_about   text-center mdc:w-[80%] tmc:w-[70%] dtm:w-[620px] dtm:mb-20 dtm:mt-4">
+                    <p class="mdc:text-[15px] tmc:text-[16px] "> feature in the app is the badge system. It gamifies exercise and you can compete with friends or family also using the Garmin app. You earn badges by completing challenges and level up. It plays well into my competitive nature and encourages improvement.</p>
                 </div>
 
-                <!-- clock features -->
-                <div class="spec_container tbs:w-screen mt-5 tbsx:w-[50%] tbsx:h-[400px]">
-                    <h3 class="text-center text-2xl">Clock Features</h3> 
-                    
-                        <div class="Clock px-3 flex tbs:w-full tbs:h-[300px]  border border-1 h-full border-black mt-3 tbsx:border-l-white"> 
-                            <div class=" Clock_name w-[50%] flex flex-col justify-between pr-3" >
-                                <p class="mt-4">Time/Date</p>
-                                <p>gps time sync</p>
-                                <p>Automatic daylight saving time</p>
-                                <p>alarm clock</p>
-                                <p>stopwatch</p>
-                            </div>
-                            <div class=" Clock_spec w-[50%] flex flex-col  justify-between   items-center   border-l-[1px] border-black">  
-                                <img src="img/specPlus.png" alt="" class=" mt-4">
-                                <img src="img/specPlus.png" alt="" class="">
-                                <img src="img/specPlus.png" alt="" class="">
-                                <img src="img/specPlus.png" alt="" class="">
-                                <img src="img/specPlus.png" alt="" class=" mb-6">
-                            </div>
+                <div class="features_container mdc:flex_col_center flex_col_center flex-wrap mt-10 w-screen px-3 gap-7 dtm:px-10 dtm:flex-row dtm:justify-center max-w-[1400px]">
+
+                    <div class="feature px-5 py-2 mdc:flex_col_center mdc:w-[80%] h-auto shadow-featureShadow tmc:w-[80%] tmc:text-center tmc:pb-5 txl:w-[90%] txc:flex txc:mx-auto txc:my-5 txc:h-[120px] txc:items-center dtm:w-[500px] dtm:h-[120px] dtm:flex" >   
+                        <img src="img/findPhone.png" alt="find phone" class="mdc:w-[50px] m-auto my-4 tmc:h-[50px] txc:h-[50px] dtm:h-[70%]">
+                        <div class="about-feature mdc:text-center txc:w-[80%] dtm:w-[80%] dtm:ml-5">
+                            <h3 class="mb-4 font-[500]">Find MY Phone</h3>
+                            <p class="mdc:text-[13px] dtm:leading-[1.1] dtm:text-[15px]">This feature is used more than I’d like to admit when I can’t remember where I left my phone.</p>
                         </div>
-                        
+                    </div>
+
+                    <div class="feature px-5 py-2 mdc:flex_col_center mdc:w-[80%] h-auto shadow-featureShadow tmc:w-[80%] tmc:text-center tmc:pb-5 txl:w-[90%] txc:flex txc:mx-auto txc:my-5 txc:h-[120px] txc:items-center dtm:w-[500px] dtm:h-[120px] dtm:flex" >
+                        <img src="img/heartIcon.png" alt="find phone" class="mdc:w-[50px] m-auto my-4 tmc:h-[50px] txc:h-[50px] dtm:h-[70%]">
+                        <div class="about-feature mdc:text-center txc:w-[80%] dtm:w-[80%] dtm:ml-5">
+                            <h3 class="mb-4 font-[500]">Heart Rate Monitor</h3>
+                            <p class="mdc:text-[13px] dtm:leading-[1.1] dtm:text-[15px]">Measuring current heart rate and resting heart rate on the watch interface as well as syncing heart rates to the Garmin app</p>
+                        </div>
+                    </div>
+
+                    <div class="feature px-5 py-2 mdc:flex_col_center mdc:w-[80%] h-auto shadow-featureShadow tmc:w-[80%] tmc:text-center tmc:pb-5 txl:w-[90%] txc:flex txc:mx-auto txc:my-5 txc:h-[120px] txc:items-center dtm:w-[500px] dtm:h-[120px] dtm:flex" >
+                        <img src="img/calorie.png" alt="find phone" class="mdc:w-[50px] m-auto my-4 tmc:h-[50px] txc:h-[50px] dtm:h-[70%]">
+                        <div class="about-feature mdc:text-center txc:w-[80%] dtm:w-[80%] dtm:ml-5">
+                            <h3 class="mb-4 font-[500]">Calorie Counter</h3>
+                            <p class="mdc:text-[13px] dtm:leading-[1.1] dtm:text-[15px]">Split between resting calories burned and calories burned through activity.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature px-5 py-2 mdc:flex_col_center mdc:w-[80%] h-auto shadow-featureShadow tmc:w-[80%] tmc:text-center tmc:pb-5 txl:w-[90%] txc:flex txc:mx-auto txc:my-5 txc:h-[120px] txc:items-center dtm:w-[500px] dtm:h-[120px] dtm:flex" >
+                        <img src="img/gpsIcon.png" alt="find phone" class="mdc:w-[50px] m-auto my-4 tmc:h-[50px] txc:h-[50px] dtm:h-[70%]">
+                        <div class="about-feature mdc:text-center txc:w-[80%] dtm:w-[77%] dtm:ml-5">
+                            <h3 class="mb-4 font-[500]">GPS</h3>
+                            <p class="mdc:text-[13px] dtm:leading-[1.1] dtm:text-[15px]">I compared the GPS accuracy against my phone and a friend’s Garmin Fenix 6 (A top of the range Garmin watch)</p>
+                        </div>
+                    </div>
+
                 </div>
 
-            </div>
+            </section>
 
-            <!-- spec container 2 -->
-            <div class="spec_col2 h-auto flex flex-wrap tbsx:mt-20">
+            <!-- specification section -->
+            <section id="specification" class="h-auto px-5 mt-10  mdc:text-[12px]">
+                <div class="specification_title font-montserrat text-center mdc:text-3xl tmc:text-[1.5rem]  txl:text-[2rem] dtm:text-[2.2rem]">Specification</div>
 
-                <!-- more spec -->
-                <div class="spec_container mdc:w-screen mt-5 tbsx:w-[50%] ">
-                    <h3 class="text-center text-[20px]">Training, Planning and Analysis Features</h3> 
+                <div class="column_specification w-full h-auto mdc:px-3 tmc:px-5 txc:px-10  dtm:px-20 ">
 
-                    <div id="more" class="moreSpec px-3 flex tbs:w-full tbs:h-[450px] border border-1 border-black mt-3 relative tbm:text-[.9rem] tbm:h-auto tbsx:h-[780px]"> 
+                    <!-- spec container 1 -->
+                    <div class="spec_col1 flex flex-wrap mb-10 ">
 
-                            <!-- border center -->
-                           <div class="line_center absolute h-full w-[1px] bg-black left-[50%]"> </div>
+                        <!-- general -->
+                        <div class="spec_container tbs:w-screen mt-5 tbsx:w-[50%] tbsx:h-[400px]">
+                            <h3 class="text-center text-2xl">General</h3> 
 
-                           <!-- spec content -->
-                            <div class=" moreSpec_name h-full w-[100%] py-2 flex flex-col justify-between tbm:h- pr-2 ">
+                                <div class="general px-3 flex tbs:w-full tbs:h-[380px] border border-1 h-full border-black mt-3  "> 
+                                    <div class=" general_name w-[50%]">
+                                        <p class="mt-4">Battery</p>
+                                        <p class="">lens material</p>
+                                        <p class="">Memory/history</p>
+                                        <p class="">display size</p>
+                                        <p class="">display resolution</p>
+                                        <p class=" ">water rating</p>
+                                        <p class="">weight</p>
+                                        <p class="">strap material</p>
+                                    </div>
+                                    <div class=" general_spec w-[50%] border-l-[1px] border-black pl-2"> 
+                                        <p class="mt-4">rechargeable lithium-ion</p>
+                                        <p>chemically strengthened glass</p>
+                                        <p>7 activities</p>
+                                        <p>0.93" x 0.93" (23.5 x 23.4 mm)</p>
+                                        <p>128 x 128 pixels</p>
+                                        <p>7 activities   </p>
+                                        <p>5 ATM</p>
+                                        <p>silicone</p>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <!-- clock features -->
+                        <div class="spec_container tbs:w-screen mt-5 tbsx:w-[50%] tbsx:h-[400px]">
+                            <h3 class="text-center text-2xl">Clock Features</h3> 
+                            
+                                <div class="Clock px-3 flex tbs:w-full tbs:h-[300px]  border border-1 h-full border-black mt-3 tbsx:border-l-white"> 
+                                    <div class=" Clock_name w-[50%] flex flex-col justify-between pr-3" >
+                                        <p class="mt-4">Time/Date</p>
+                                        <p>gps time sync</p>
+                                        <p>Automatic daylight saving time</p>
+                                        <p>alarm clock</p>
+                                        <p>stopwatch</p>
+                                    </div>
+                                    <div class=" Clock_spec w-[50%] flex flex-col  justify-between   items-center   border-l-[1px] border-black">  
+                                        <img src="img/specPlus.png" alt="" class=" mt-4">
+                                        <img src="img/specPlus.png" alt="" class="">
+                                        <img src="img/specPlus.png" alt="" class="">
+                                        <img src="img/specPlus.png" alt="" class="">
+                                        <img src="img/specPlus.png" alt="" class=" mb-6">
+                                    </div>
+                                </div>
                                 
-                                <div class="moreSpec_container "> 
-                                    <p class=" w-[50%] ">step counter</p>
-                                    <div class="imgVerification"> 
-                                        <img src="img/specPlus.png" alt="" class="">
-                                    </div>
-                                </div>
-                                <div class="moreSpec_container "> 
-                                    <p class=" w-[50%] ">move bar (displays on device after a period of inactivity; walk for a couple of minutes to reset it)</p>
-                                    <div class="imgVerification"> 
-                                        <img src="img/specPlus.png" alt="" class="">
-                                    </div>
-                                </div> 
-                                <div class="moreSpec_container "> 
-                                    <p class=" w-[50%] ">auto goal (learns your activity level and assigns a daily step goal)</p>
-                                    <div class="imgVerification"> 
-                                        <img src="img/specPlus.png" alt="" class="">
-                                    </div>
+                        </div>
+
+                    </div>
+
+                    <!-- spec container 2 -->
+                    <div class="spec_col2 h-auto flex flex-wrap tbsx:mt-20">
+
+                        <!-- more spec -->
+                        <div class="spec_container mdc:w-screen mt-5 tbsx:w-[50%] ">
+                            <h3 class="text-center text-[20px]">Training, Planning and Analysis Features</h3> 
+
+                            <div id="more" class="moreSpec px-3 flex tbs:w-full tbs:h-[450px] border border-1 border-black mt-3 relative tbm:text-[.9rem] tbm:h-auto tbsx:h-[780px]"> 
+
+                                    <!-- border center -->
+                                <div class="line_center absolute h-full w-[1px] bg-black left-[50%]"> </div>
+
+                                <!-- spec content -->
+                                    <div class=" moreSpec_name h-full w-[100%] py-2 flex flex-col justify-between tbm:h- pr-2 ">
+                                        
+                                        <div class="moreSpec_container "> 
+                                            <p class=" w-[50%] ">step counter</p>
+                                            <div class="imgVerification"> 
+                                                <img src="img/specPlus.png" alt="" class="">
+                                            </div>
+                                        </div>
+                                        <div class="moreSpec_container "> 
+                                            <p class=" w-[50%] ">move bar (displays on device after a period of inactivity; walk for a couple of minutes to reset it)</p>
+                                            <div class="imgVerification"> 
+                                                <img src="img/specPlus.png" alt="" class="">
+                                            </div>
+                                        </div> 
+                                        <div class="moreSpec_container "> 
+                                            <p class=" w-[50%] ">auto goal (learns your activity level and assigns a daily step goal)</p>
+                                            <div class="imgVerification"> 
+                                                <img src="img/specPlus.png" alt="" class="">
+                                            </div>
+                                        </div>  
+                                        <div class="moreSpec_container "> 
+                                            <p class=" w-[50%] ">calories burned</p>
+                                            <div class="imgVerification"> 
+                                                <img src="img/specPlus.png" alt="" class="">
+                                            </div>
+                                        </div>   
+                                        <div class="moreSpec_container "> 
+                                            <p class=" w-[50%] ">distance traveled</p>
+                                            <div class="imgVerification"> 
+                                                <img src="img/specPlus.png" alt="" class="">
+                                            </div>
+                                        </div>   
+                                        <div class="moreSpec_container "> 
+                                            <p class=" w-[50%] ">intensity minutes</p>
+                                            <div class="imgVerification"> 
+                                                <img src="img/specPlus.png" alt="" class="">
+                                            </div>
+                                        </div>   
+                                        <div class="moreSpec_container "> 
+                                            <p class=" w-[50%] ">trueup™</p>
+                                            <div class="imgVerification"> 
+                                                <img src="img/specPlus.png" alt="" class="">
+                                            </div>
+                                        </div>      
+                                        <div class="moreSpec_container "> 
+                                            <p class=" w-[50%] ">move iq™</p>
+                                            <div class="imgVerification"> 
+                                                <img src="img/specPlus.png" alt="" class="">
+                                            </div>
+                                        </div>   
+
+                                    </div> 
+
+                            </div>
+                        </div>
+
+                        <!-- activity tracking -->
+                        <div class="spec_container mdc:w-screen mt-5 tbsx:w-[50%]">
+                            <h3 class="text-center text-2xl">Activity Tracking Features</h3> 
+
+                            <div id="trac" class="moreSpec px-3 flex tbs:w-full tbs:h-[590px] border border-1 border-black mt-3 relative  tbm:h-[990px] tbsx:h-[780px]"> 
+
+                                <!-- border center -->
+                            <div class="line_center absolute h-full w-[1px] bg-black left-[50%]"> </div>
+
+                            <!-- spec content -->
+                                <div class="moreSpec_name h-full w-[100%] py-2 flex flex-col justify-between pr-2"> 
+                                    
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">hr zones</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">hr calories</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">" Winter is coming. "
+                                            hr broadcast (broadcasts hr data over ant+™ to paired devices)</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">gps speed and distance</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] "> customizable data pages</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">customizable activity profiles</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">auto pause®</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">auto lap®</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">manual lap</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">vo2 max (run)</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">audio prompts</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+                                    <div class="moreSpec_container "> 
+                                        <p class=" w-[50%] ">activity history on watch</p>
+                                        <div class="imgVerification"> 
+                                            <img src="img/specPlus.png" alt="" class="">
+                                        </div>
+                                    </div>  
+
                                 </div>  
-                                <div class="moreSpec_container "> 
-                                    <p class=" w-[50%] ">calories burned</p>
-                                    <div class="imgVerification"> 
-                                        <img src="img/specPlus.png" alt="" class="">
-                                    </div>
-                                </div>   
-                                <div class="moreSpec_container "> 
-                                    <p class=" w-[50%] ">distance traveled</p>
-                                    <div class="imgVerification"> 
-                                        <img src="img/specPlus.png" alt="" class="">
-                                    </div>
-                                </div>   
-                                <div class="moreSpec_container "> 
-                                    <p class=" w-[50%] ">intensity minutes</p>
-                                    <div class="imgVerification"> 
-                                        <img src="img/specPlus.png" alt="" class="">
-                                    </div>
-                                </div>   
-                                <div class="moreSpec_container "> 
-                                    <p class=" w-[50%] ">trueup™</p>
-                                    <div class="imgVerification"> 
-                                        <img src="img/specPlus.png" alt="" class="">
-                                    </div>
-                                </div>      
-                                <div class="moreSpec_container "> 
-                                    <p class=" w-[50%] ">move iq™</p>
-                                    <div class="imgVerification"> 
-                                        <img src="img/specPlus.png" alt="" class="">
-                                    </div>
-                                </div>   
 
-                            </div> 
 
-                    </div>
-                </div>
+                            </div>
 
-                <!-- activity tracking -->
-                <div class="spec_container mdc:w-screen mt-5 tbsx:w-[50%]">
-                    <h3 class="text-center text-2xl">Activity Tracking Features</h3> 
-
-                    <div id="trac" class="moreSpec px-3 flex tbs:w-full tbs:h-[590px] border border-1 border-black mt-3 relative  tbm:h-[990px] tbsx:h-[780px]"> 
-
-                        <!-- border center -->
-                       <div class="line_center absolute h-full w-[1px] bg-black left-[50%]"> </div>
-
-                       <!-- spec content -->
-                        <div class="moreSpec_name h-full w-[100%] py-2 flex flex-col justify-between pr-2"> 
-                             
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">hr zones</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">hr calories</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">" Winter is coming. "
-                                    hr broadcast (broadcasts hr data over ant+™ to paired devices)</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">gps speed and distance</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] "> customizable data pages</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">customizable activity profiles</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">auto pause®</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">auto lap®</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">manual lap</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">vo2 max (run)</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">audio prompts</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-                            <div class="moreSpec_container "> 
-                                <p class=" w-[50%] ">activity history on watch</p>
-                                <div class="imgVerification"> 
-                                    <img src="img/specPlus.png" alt="" class="">
-                                </div>
-                            </div>  
-
-                        </div>  
+                        </div>
 
 
                     </div>
 
                 </div>
 
+            </section>
 
-            </div>
+            <!-- images section -->
+            <section id="images" class="h-auto mt-10">
+                <div class="images_title">
+                    <h3 class="text-center mx-14 text-[1.9rem] font-montserrat ">Image</h3>
+                </div>
+                    <div class="images_container gap-[30px] relative px-20 mt-16 dtm:mx-28">
+                        <img src="img/imgWatch1.jpeg" alt="">
+                        <img src="img/imgWatch2.jpg" alt="">
+                        <img src="img/imgWatch3.jpeg" alt="">
+                        <img src="img/imgWatch4.jpg" alt="">
+                        <img src="img/imgWatch5.jpeg" alt="">
+                        <img src="img/imgWatch6.jpeg" alt="">
+                        <img src="img/imgWatch7.png" alt="">
+                    </div>
+            </section>
 
-        </div>
+            <!-- footer section -->
+            <footer class="h-auto relative bg-black w-full mt-10 flex_col_center py-5 items-center px-10  dtm:pt-[8rem] dtm:pb-[40px] overflow-hidden">
 
-    </section>
+                <!-- logo web footer -->
+                <div class="logoFooter dtm:absolute dtm:left-[4rem] dtm:top-[2rem] ">
 
-    <!-- images section -->
-    <section id="images" class="h-auto mt-10">
-        <div class="images_title">
-            <h3 class="text-center mx-14 text-[1.9rem] font-montserrat ">Image</h3>
-        </div>
-            <div class="images_container gap-[30px] relative px-20 mt-16 dtm:mx-28">
-                <img src="img/imgWatch1.jpeg" alt="">
-                <img src="img/imgWatch2.jpg" alt="">
-                <img src="img/imgWatch3.jpeg" alt="">
-                <img src="img/imgWatch4.jpg" alt="">
-                <img src="img/imgWatch5.jpeg" alt="">
-                <img src="img/imgWatch6.jpeg" alt="">
-                <img src="img/imgWatch7.png" alt="">
-            </div>
-    </section>
+                    <div class="logo flex items-end justify-center"> 
+                            <img src="img/brandWebIcon.png" alt="Icon web" class="h-10 w-auto mr-[3px]">
+                            <p class="text-white text-[1.5rem] tracking-[1px]">nWatch</p>
+                    </div>
+                    <a href="https://www.figma.com/file/2ecgHg8rzbniayrZvPbU3V/onWatch?node-id=0-1&t=sTXjG4hvrjmGBABE-0" class="font-plusJakartaSans text-[#d8d8d8f6] tracking-[2px] cursor-pointer mdc:text-[.6rem] dtm:text-[.8rem] dtm:ml-4  hover:text-[#afafaf]">Figma design link</a>
+                    
+                </div>  
 
-    <!-- footer section -->
-    <footer class="h-auto relative bg-black w-full mt-10 flex_col_center py-5 items-center px-10  dtm:pt-[8rem] dtm:pb-[40px] overflow-hidden">
+                <!-- FooterTopContent -->
+                <div class="FooterTopContent relative  w-full dtm:h-[225px]  dtm:px-10 dtm:flex  dtm:items-start dtm:justify-between dtm:max-w-[1500px]">
 
-        <!-- logo web footer -->
-        <div class="logoFooter dtm:absolute dtm:left-[4rem] dtm:top-[2rem] ">
+                    <!-- about us -->
+                    <div class="aboutUs relative txl:my-10 mdc:w-full dtm:w-[250px] dtm:h-full ">
+                        <h3 class="footerTextGradient  font-plusJakartaSans font-extrabold tracking-[2px] text-center mb-3 txc:text-[1.5rem] dtm:text-left dtm:mb-5">About Us</h3>
+                        <p class="text-[#d8d8d8f6] text-center font-montserrat mdc:text-center mdc:text-[.75rem]  txc:text-[1.1rem] dtm:text-left dtm:text-[.9rem]">we provide information about the most popular smartwatches for now</p>
+                    </div>
 
-            <div class="logo flex items-end justify-center"> 
-                       <img src="img/brandWebIcon.png" alt="Icon web" class="h-10 w-auto mr-[3px]">
-                       <p class="text-white text-[1.5rem] tracking-[1px]">nWatch</p>
-            </div>
-            <a href="https://www.figma.com/file/2ecgHg8rzbniayrZvPbU3V/onWatch?node-id=0-1&t=sTXjG4hvrjmGBABE-0" class="font-plusJakartaSans text-[#d8d8d8f6] tracking-[2px] cursor-pointer mdc:text-[.6rem] dtm:text-[.8rem] dtm:ml-4  hover:text-[#afafaf]">Figma design link</a>
+                    <!-- information -->
+                    <div class="infomation flex_col_center txl:mb-3 mdc:w-full h-auto txl:w-full tbsx:mb-9 dtm:w-[50%]">
+                        <h3 class="footerTextGradient  font-plusJakartaSans font-extrabold tracking-[2px] text-center mb-3">Infomation</h3>
+                        <div class="informationList flex w-full h-auto text-[#bebebef6] max-w-[500px]">
+                            <div class="col1 flex_col_center w-[50%] text-center">
+                                <a href="">Licence</a>
+                                <a href="">Contact us</a>
+                                <a href="">Brands</a>
+                                <a href="">Reviews</a>
+                            </div>
+                            <div class="col2 flex_col_center w-[50%] text-center">
+                                <a href="">Terms and conditions</a>
+                                <a href="">Advertise With Us</a>
+                                <a href="">site map</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- emailForm -->
+                    <div class="emailForm flex_col_center mdc:w-full text-[#e0e0e0f6] dtm:w-[300px]">
+                        <p class="text-center font-plusJakartaSans mb-5 mdc:text-[.75rem] dtm:text-[.8rem]">join for the latest information about smart watch from onWatch</p>
+                        <div class="emailContainer relative flex items-center px-3 my-3 bg-white h-[30px] w-[200px]">
+                            <img src="img/emailLogo.png" class="w-[20px] h-auto cursor-pointer" alt="">
+                            <div class="mx-4 h-[80%] w-[1px] bg-black"></div>
+                            <p class="font-plusJakartaSans text-black text-[.65rem] font-extrabold text-center w-[70%] dtm:text-[.89rem]">Sign In</p>
+                        </div>
+                        <p class="font-plusJakartaSans mdc:text-[.7rem] tracking-[1px] dtm:text-[.8rem]">Privacy policy</p>
+                    </div>
+
+                </div>
+
+            <!-- FooterbottomContent -->
+                <div class="FooterbottomContent relative h-auto w-full dtm:flex_col_center ">
+                    
+                            <!-- line bottom -->
+                    <div class="my-5 w-[100%] h-[1px] bg-white mx-auto dtm:w-[90%]"></div>
+
+                    <!-- social media -->
+                    <div class="media_social_container relative   h-auto flex items-center  justify-center   max-w-[100%] txc:max-w-[600px] dtm:mt-[20px]">
+                            <img src="img/facebookIcon1.png" alt="" class="dtm:w-12 ">
+                            <img src="img/linkedInIcon2.png" alt="" class="">
+                            <img src="img/instagramIcon3.png" alt="" class="">
+                            <img src="img/twitterIcon(1).png" alt="" class=""> 
+                    </div>
             
-        </div>  
-
-        <!-- FooterTopContent -->
-        <div class="FooterTopContent relative  w-full dtm:h-[225px]  dtm:px-10 dtm:flex  dtm:items-start dtm:justify-between dtm:max-w-[1500px]">
-
-            <!-- about us -->
-            <div class="aboutUs relative txl:my-10 mdc:w-full dtm:w-[250px] dtm:h-full ">
-                <h3 class="footerTextGradient  font-plusJakartaSans font-extrabold tracking-[2px] text-center mb-3 txc:text-[1.5rem] dtm:text-left dtm:mb-5">About Us</h3>
-                <p class="text-[#d8d8d8f6] text-center font-montserrat mdc:text-center mdc:text-[.75rem]  txc:text-[1.1rem] dtm:text-left dtm:text-[.9rem]">we provide information about the most popular smartwatches for now</p>
-            </div>
-
-            <!-- information -->
-            <div class="infomation flex_col_center txl:mb-3 mdc:w-full h-auto txl:w-full tbsx:mb-9 dtm:w-[50%]">
-                <h3 class="footerTextGradient  font-plusJakartaSans font-extrabold tracking-[2px] text-center mb-3">Infomation</h3>
-                <div class="informationList flex w-full h-auto text-[#bebebef6] max-w-[500px]">
-                    <div class="col1 flex_col_center w-[50%] text-center">
-                        <a href="">Licence</a>
-                        <a href="">Contact us</a>
-                        <a href="">Brands</a>
-                        <a href="">Reviews</a>
-                    </div>
-                    <div class="col2 flex_col_center w-[50%] text-center">
-                        <a href="">Terms and conditions</a>
-                        <a href="">Advertise With Us</a>
-                        <a href="">site map</a>
-                    </div>
+                    <!-- by -->
+                    <div class="by font-plusJakartaSans   relative   text-white text-center mt-8 mdc:text-[.6rem] tbsx:text-[.8rem]  dtm:text-[.7rem]">
+                        @2023 made by Ismail
                 </div>
-            </div>
 
-            <!-- emailForm -->
-            <div class="emailForm flex_col_center mdc:w-full text-[#e0e0e0f6] dtm:w-[300px]">
-                <p class="text-center font-plusJakartaSans mb-5 mdc:text-[.75rem] dtm:text-[.8rem]">join for the latest information about smart watch from onWatch</p>
-                <div class="emailContainer relative flex items-center px-3 my-3 bg-white h-[30px] w-[200px]">
-                    <img src="img/emailLogo.png" class="w-[20px] h-auto cursor-pointer" alt="">
-                    <div class="mx-4 h-[80%] w-[1px] bg-black"></div>
-                    <p class="font-plusJakartaSans text-black text-[.65rem] font-extrabold text-center w-[70%] dtm:text-[.89rem]">Sign In</p>
-                </div>
-                <p class="font-plusJakartaSans mdc:text-[.7rem] tracking-[1px] dtm:text-[.8rem]">Privacy policy</p>
-            </div>
-
-        </div>
-
-      <!-- FooterbottomContent -->
-        <div class="FooterbottomContent relative h-auto w-full dtm:flex_col_center ">
-            
-                    <!-- line bottom -->
-            <div class="my-5 w-[100%] h-[1px] bg-white mx-auto dtm:w-[90%]"></div>
-
-            <!-- social media -->
-             <div class="media_social_container relative   h-auto flex items-center  justify-center   max-w-[100%] txc:max-w-[600px] dtm:mt-[20px]">
-                    <img src="img/facebookIcon1.png" alt="" class="dtm:w-12 ">
-                    <img src="img/linkedInIcon2.png" alt="" class="">
-                    <img src="img/instagramIcon3.png" alt="" class="">
-                    <img src="img/twitterIcon(1).png" alt="" class=""> 
-             </div>
-    
-            <!-- by -->
-            <div class="by font-plusJakartaSans   relative   text-white text-center mt-8 mdc:text-[.6rem] tbsx:text-[.8rem]  dtm:text-[.7rem]">
-                @2023 made by Ismail
-        </div>
-
-    </footer>
-
-    <!-- link design figma -->
-    <!-- https://www.figma.com/file/2ecgHg8rzbniayrZvPbU3V/onWatch?node-id=0-1&t=QzxJaH4NxkT2tt90-0 -->
-
+            </footer>
+        
+    </main>
     
     <!-- script js -->
     <script src="index.js"></script>
