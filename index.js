@@ -37,15 +37,16 @@ window.addEventListener('scroll',()=> {
 bgImgHero.setAttribute('src','errr');
 function headerImgSize(){
         if(window.screen.width < 550){ 
-        bgImgHero.setAttribute('src','img/mobileBgHeader.png');
+        bgImgHero.setAttribute('src','img/mobileBgHeader.webp');
     } else if(window.screen.width > 550 && window.screen.width < 1100){
-        bgImgHero.setAttribute('src','img/tabHeaderImg.png');
-    } else if(window.screen.width > 1100 && window.screen.width < 1700){
-        bgImgHero.setAttribute('src','img/deksHeaderImg.png');
+        bgImgHero.setAttribute('src','img/tabHeaderImg.webp');
+    } else if(window.screen.width > 1100 && window.screen.width < 1400){
+        bgImgHero.setAttribute('src','img/deksHeaderImg.webp');
     } else {
-        bgImgHero.setAttribute('src','img/deksMaxHeaderImg.png');
+        bgImgHero.setAttribute('src','img/deksMaxHeaderImg.webp');
     }
 }
+
 headerImgSize();
 window.addEventListener('resize' ,() => {
     headerImgSize()
